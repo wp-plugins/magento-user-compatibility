@@ -27,8 +27,10 @@ Tested successfully with Magento 1.8.0.0 and Wordpress 3.7.1.
 
 == Installation ==
 
-1. Unzip and upload `/magento-user-compatibility/` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+0. Manually import the database of your previous Magento customer passwords.
+1. Alter the database. See FAQ.
+2. Unzip and upload `/magento-user-compatibility/` to the `/wp-content/plugins/` directory
+3. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
