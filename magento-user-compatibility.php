@@ -48,7 +48,7 @@ function magento_pw_rehash( $user, $username, $password ) {
 
     // if this is true, it means that the user's password in the DB is an old Magento password
     // if the password is correct, we rehash and update it
-    if (md5($oldpw[1].$plaintext_pw) == $oldpw[0]) {
+    if (md5($oldpw[0].$plaintext_pw) == $oldpw[0]) {
         wp_set_password( $plaintext_pw, $user->id );
     }
 
